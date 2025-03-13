@@ -1,0 +1,169 @@
+/.docker
+
+# Linux screen(1) logs
+hardcopy.*
+screenlog.*
+
+# Numerous always-ignore extensions
+*.bak
+*.old
+*.tmp
+*.err
+*.log
+*.diff
+*.patch
+*.orig
+*.rej
+*.retry
+*.rdb
+*.swo
+*.swp
+*.vi
+*.sass-cache
+
+# Windows-specific files and folders
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*:Zone.Identifier
+*.lnk
+
+# Linux-specific files and folders
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS-specific files and folders
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
+
+# OS or Editor folders
+.netrc
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+GitHub.sublime-settings
+.tgitconfig
+Session.vim
+Sessionx.vim
+.netrwhist
+.vscode
+*.vsix
+*.xcscmblueprint
+*.xccheckout
+.*.kate-swp
+*.pydevproject
+.cproject
+.cache-main
+.scala_dependencies
+.worksheet
+.~lock.*#
+
+# MicrosoftOffice temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.~vsd*
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# Dreamweaver
+_notes
+_compareTemp
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Virtualenv
+.Python
+.venv
+pyvenv.cfg
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Folders to ignore
+.hg/
+.svn/
+.bzr/
+.CVS
+.idea
+
+# Archives formats
+*.7z
+*.7zip
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+
+# Packing-only formats
+*.iso
+*.tar
+
+# Package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+
+# OpenSSL-related files
+*.ca
+*.crt
+*.csr
+*.der
+*.kdb
+*.org
+*.p12
+*.pem
+*.rnd
+*.ssleay
+*.smime
